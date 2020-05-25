@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+           <div class="row">
+                <div class="col-md-4">
+                    <img alt="logo sise" src="imagenes/logosise.png" />
+                </div>
+                 <div class="col-md-4">
+                </div>
+               <div class="col-md-4">
+                    <img alt="aspnet" src="imagenes/asp_net.jpg" />
+                </div>
+             </div>
+            
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
